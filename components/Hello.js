@@ -6,12 +6,12 @@ const Hello = () => {
     <View>
       <Text style={hellostyles.buttonText}>Hello</Text>
 
-      <Button
+      {/* <Button
         onPress={onPressLearnMore}
         title="Learn More"
         color="#841584"
         accessibilityLabel="Learn more about this purple button"
-      />
+      /> */}
     </View>
   );
 };
